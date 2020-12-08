@@ -17,6 +17,7 @@
           <e p="Debug" t="Include">
             <e p="App.g.cs" t="Include" />
             <e p="MainWindow.g.cs" t="Include" />
+            <e p="Window1.g.cs" t="Include" />
           </e>
         </e>
         <e p="Password generator.csproj" t="IncludeRecursive" />
@@ -25,6 +26,8 @@
           <e p="Resources.Designer.cs" t="Include" />
           <e p="Resources.resx" t="Include" />
         </e>
+        <e p="Window1.xaml" t="Include" />
+        <e p="Window1.xaml.cs" t="Include" />
       </e>
       <e p="Password generator.sln" t="IncludeFlat" />
     </e>

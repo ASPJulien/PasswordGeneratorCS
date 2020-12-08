@@ -5,17 +5,24 @@ namespace Password_generator
     public class Generator
     {
         
-        public static string Generate()
+        public static string Generate(bool isAdvanced)
         {
-            if (MainWindow.Security == 0)
-                return Password(6, false, false);
-            else if (MainWindow.Security == 1)
-                return Password(8, true, false);
-            else if (MainWindow.Security == 2)
-                return Password(10, true, true);
+            if (isAdvanced != true)
+            {
+                if (MainWindow.Security == 0)
+                    return Password(6, false, false);
+                else if (MainWindow.Security == 1)
+                    return Password(8, true, false);
+                else if (MainWindow.Security == 2)
+                    return Password(10, true, true);
+                else
+                    return "";
+            }
             else
-                return "";
-        }
+            {
+                return Password(Window1.Length, Window1.IsAlphaNum, Window1.IsSpecial);
+            }
+        }   
 
 
         private static Random rng = new Random();

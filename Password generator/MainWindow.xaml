@@ -7,14 +7,19 @@
         mc:Ignorable="d"
         Title="Password generator" Height="290" Width="265" ResizeMode="NoResize">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="197*"/>
+            <ColumnDefinition Width="62*"/>
+        </Grid.ColumnDefinitions>
         <Label Content="Password generator&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="184" Height="37" FontSize="20"/>
-        <RadioButton Content="Low" HorizontalAlignment="Left" Margin="65,93,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <RadioButton Content="Low" Margin="21,95,127,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
         <Label Content="Security:" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="High" HorizontalAlignment="Left" Margin="110,93,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.045,0.8" Checked="RadioButton_Checked_1"/>
-        <RadioButton Content="Very High" HorizontalAlignment="Left" Margin="159,93,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_2"/>
+        <RadioButton Content="High" HorizontalAlignment="Left" Margin="70,95,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.045,0.8" Checked="RadioButton_Checked_1"/>
+        <RadioButton Content="Very High" HorizontalAlignment="Left" Margin="119,95,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_2"/>
         <Label Content="Password:" HorizontalAlignment="Left" Margin="10,126,0,0" VerticalAlignment="Top"/>
-        <Button Content="Generate" HorizontalAlignment="Left" Margin="34,201,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click"/>
-        <TextBox Name="Result" HorizontalAlignment="Left" Height="23" Margin="34,173,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" AutomationProperties.Name="Result" IsReadOnly="True"/>
+        <Button Content="Generate" HorizontalAlignment="Left" Margin="21,185,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click"/>
+        <TextBox Name="Result" HorizontalAlignment="Left" Height="23" Margin="21,157,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" AutomationProperties.Name="Result" IsReadOnly="True"/>
+        <Button Content="Advanced" HorizontalAlignment="Left" Margin="174,231,0,0" VerticalAlignment="Top" Width="75" Background="#FF8AB8AF" Click="AdvancedButton" Grid.ColumnSpan="2"/>
 
     </Grid>
 </Window>
