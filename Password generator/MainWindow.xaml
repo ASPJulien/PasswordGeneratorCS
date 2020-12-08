@@ -14,7 +14,7 @@
         <RadioButton Content="Very High" HorizontalAlignment="Left" Margin="159,93,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_2"/>
         <Label Content="Password:" HorizontalAlignment="Left" Margin="10,126,0,0" VerticalAlignment="Top"/>
         <Button Content="Generate" HorizontalAlignment="Left" Margin="34,201,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click"/>
-        <TextBox Name="Result" HorizontalAlignment="Left" Height="23" Margin="34,173,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" AutomationProperties.Name="Result" IsReadOnly="True"/>
+        <TextBox Name="Result" HorizontalAlignment="Left" Height="23" Margin="34,173,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" AutomationProperties.Name="Result" IsReadOnly="True"/>
 
     </Grid>
 </Window>
