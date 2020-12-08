@@ -4,7 +4,12 @@
     <projectFile>Password generator/Password generator.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208a9032-77c8-4ad3-836a-1a7635a488be" name="Default Changelist" comment="" />
+    <list default="true" id="208a9032-77c8-4ad3-836a-1a7635a488be" name="Default Changelist" comment="Initial Commit">
+      <change beforePath="$PROJECT_DIR$/Password generator/Password generator.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Password generator/Password generator.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Password generator/obj/Debug/MainWindow.baml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Password generator/obj/Debug/Password generator.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Password generator/obj/Debug/Password generator.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Password generator/obj/Debug/Password_generator_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Password generator/obj/Debug/Password_generator_MarkupCompile.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,12 +18,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Password generator/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Password generator/Generator.cs" />
       <option value="$PROJECT_DIR$/Password generator/MainWindow.xaml" />
       <option value="$PROJECT_DIR$/Password generator/App.xaml" />
       <option value="$PROJECT_DIR$/Password generator/MainWindow.xaml.cs" />
+      <option value="$PROJECT_DIR$/Password generator/Properties/AssemblyInfo.cs" />
+      <option value="$PROJECT_DIR$/Password generator/Password generator.csproj" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lNeClnKmodz8C6Jh4wZqpOWnbO" />
@@ -69,8 +79,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607441853567</updated>
-      <workItem from="1607441856997" duration="7633000" />
+      <workItem from="1607441856997" duration="8064000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1607449714213</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607449714213</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,6 +98,8 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
