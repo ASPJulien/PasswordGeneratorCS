@@ -32,6 +32,8 @@ namespace Password_generator
             var stringChars = new char[length];
             var characters =
                 "ABCDEFGHIJKLMNOPQRSTUVWXYabcdefghijklmnopqrstuvwxyz";
+            var forceSpeChars = "$àç@#_/";
+            var forceNumChars = "0123456789";
             
             if(alphaNum == true)
             {
@@ -47,6 +49,16 @@ namespace Password_generator
             {
                 stringChars[i] = characters[rng.Next(characters.Length)];
             }
+
+            if (specials == true)
+            {
+                stringChars[rng.Next(stringChars.Length)] = forceSpeChars[rng.Next(forceSpeChars.Length)];
+            }
+            if (alphaNum == true)
+            {
+                stringChars[rng.Next(stringChars.Length)] = forceNumChars[rng.Next(forceNumChars.Length)];
+            }
+            
 
             string password;
             password = new String(stringChars);
