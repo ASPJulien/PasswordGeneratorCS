@@ -4,10 +4,10 @@
     <projectFile>Password generator/Password generator.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208a9032-77c8-4ad3-836a-1a7635a488be" name="Default Changelist" comment="Added a new &quot; Advanced mode &quot; that allow you to choose the length and the force of the password">
+    <list default="true" id="208a9032-77c8-4ad3-836a-1a7635a488be" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Password generator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Password generator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Password generator/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Password generator/v16/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Password generator/Generator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Password generator/Generator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Password generator/Properties/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Password generator/Properties/AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Password generator/bin/Debug/Password_generator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Password generator/bin/Debug/Password_generator.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Password generator/bin/Debug/Password_generator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Password generator/bin/Debug/Password_generator.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Password generator/obj/Debug/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/Password generator/obj/Debug/MainWindow.baml" afterDir="false" />
@@ -92,7 +92,8 @@
       <workItem from="1607441856997" duration="9646000" />
       <workItem from="1607453837042" duration="794000" />
       <workItem from="1607456645098" duration="2712000" />
-      <workItem from="1607535297126" duration="946000" />
+      <workItem from="1607535297126" duration="1894000" />
+      <workItem from="1607542719071" duration="2543000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1607449714213</created>
@@ -122,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607458682160</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Security update&#10; + Force a num/special character when asked">
+      <created>1607536451493</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607536451493</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +156,8 @@
     <MESSAGE value="Changed Icone" />
     <MESSAGE value="Fixed &quot; TextBox &quot; text that appeared in the password box" />
     <MESSAGE value="Added a new &quot; Advanced mode &quot; that allow you to choose the length and the force of the password" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a new &quot; Advanced mode &quot; that allow you to choose the length and the force of the password" />
+    <MESSAGE value="Security update&#10; + Force a num/special character when asked" />
+    <option name="LAST_COMMIT_MESSAGE" value="Security update&#10; + Force a num/special character when asked" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

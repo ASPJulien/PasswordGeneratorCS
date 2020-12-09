@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Password_generator
 {
@@ -29,44 +30,32 @@ namespace Password_generator
         private static string Password(int length, bool alphaNum, bool specials)
         {
 
-            var stringChars = new char[length];
-            var characters =
-                "ABCDEFGHIJKLMNOPQRSTUVWXYabcdefghijklmnopqrstuvwxyz";
-            var forceSpeChars = "$àç@#_/";
-            var forceNumChars = "0123456789";
-            
+            List<char> password = new List<char>();
+            string characters = "ABCDEFGHIJKLMNOPQRSTUVWXYabcdefghijklmnopqrstuvwxyz";
+            string SpeChars = "$àç@#_/";
+            string NumChars = "0123456789";
+            int num1 = rng.Next(length);
+            int num2 = rng.Next(length);
+
+            while (num1 == num2)
+                num2 = rng.Next(length);
+
             if(alphaNum == true)
-            {
-                characters = "ABCDEFGHIJKLMNOPQRSTUVWXYabcdefghijklmnopqrstuvwxy0123456789";
-            }
+                characters += NumChars;
 
             if(specials == true)
-            {
-                characters = "ABCDEFGHIJKLMNOPQRSTUVWXYabcdefghijklmnopqrstuvwxy0123456789$àç@#_/";
-            }
+                characters += SpeChars;
+
+            for (int i = 0; i < length; i++)
+                password.Add(characters[rng.Next(characters.Length)]);
+                
+            if (specials)
+                password[num1] = SpeChars[rng.Next(SpeChars.Length)];
             
-            for (int i = 0; i < stringChars.Length; i++)
-            {
-                stringChars[i] = characters[rng.Next(characters.Length)];
-            }
-
-            if (specials == true)
-            {
-                stringChars[rng.Next(stringChars.Length)] = forceSpeChars[rng.Next(forceSpeChars.Length)];
-            }
-            if (alphaNum == true)
-            {
-                stringChars[rng.Next(stringChars.Length)] = forceNumChars[rng.Next(forceNumChars.Length)];
-            }
+            if (alphaNum)
+                password[num2] = NumChars[rng.Next(NumChars.Length)];
             
-
-            string password;
-            password = new String(stringChars);
-            return password;
-
+            return new string(password.ToArray());
         }
-        
-        
-        
     }
-}
+}   
