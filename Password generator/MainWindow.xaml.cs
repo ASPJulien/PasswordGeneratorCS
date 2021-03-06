@@ -9,7 +9,7 @@ namespace Password_generator
     {
         public static int Security = 0;
 
-        public static Window1 Adv = new Window1();
+        
         
         public MainWindow()
         {
@@ -39,6 +39,7 @@ namespace Password_generator
 
         private void AdvancedButton(object sender, System.Windows.RoutedEventArgs e)
         {
+            Window1 Adv = new Window1();
             Adv.Show();
         }
 
